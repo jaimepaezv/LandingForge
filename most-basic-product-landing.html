@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sell your physical products with this modern, mobile-first landing page.">
+  <title>Product Landing Page</title>
+  <!-- Bootstrap CSS via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Icons via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .hero {
+      background: #f8f9fa;
+      padding: 50px 0;
+    }
+    .product-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .feature-icon {
+      font-size: 2rem;
+      color: #007bff;
+    }
+    .cta-btn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">ProductName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <div class="container">
+      <h1 class="display-4">Your Product, Our Passion</h1>
+      <p class="lead">Discover the perfect solution for your needs. High-quality, durable, and affordable.</p>
+      <img src="https://via.placeholder.com/600x400" alt="Product Image" class="product-image mt-4">
+      <a href="#contact" class="btn btn-primary btn-lg cta-btn">Get Yours Now</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Features</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-truck feature-icon"></i>
+          <h3>Fast Shipping</h3>
+          <p>Get your product delivered in no time.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-star feature-icon"></i>
+          <h3>High Quality</h3>
+          <p>Built to last with premium materials.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-headset feature-icon"></i>
+          <h3>24/7 Support</h3>
+          <p>We're here to help whenever you need us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">About Our Product</h2>
+      <p class="lead text-center">Our product is designed with you in mind. Whether you're looking for durability, style, or functionality, we've got you covered. Made with care and precision, it's the perfect addition to your life.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 ProductName. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
