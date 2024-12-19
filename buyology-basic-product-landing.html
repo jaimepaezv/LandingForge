@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sell your physical products with this modern, mobile-first landing page inspired by Buyology principles.">
+  <title>Product Landing Page</title>
+  <!-- Bootstrap CSS via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Icons via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+    }
+    .hero {
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .product-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      color: #007bff;
+    }
+    .cta-btn {
+      margin-top: 20px;
+    }
+    .testimonial-card {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .trust-section {
+      background: #007bff;
+      color: white;
+      padding: 50px 0;
+    }
+    .trust-section img {
+      max-width: 100px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">ProductName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trust">Trust</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="display-4">Experience the Difference</h1>
+      <p class="lead">Our product is designed to inspire, simplify, and elevate your life. High-quality, durable, and built to last.</p>
+      <img src="https://via.placeholder.com/600x400" alt="Product Image" class="product-image mt-4">
+      <a href="#contact" class="btn btn-light btn-lg cta-btn">Order Now</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Why Choose Us?</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-truck feature-icon"></i>
+          <h3>Fast Shipping</h3>
+          <p>Get your product delivered in no time with our reliable shipping partners.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-star feature-icon"></i>
+          <h3>Premium Quality</h3>
+          <p>Built with the finest materials to ensure durability and satisfaction.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-headset feature-icon"></i>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated team is here to assist you whenever you need help.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Customers Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-card d-flex align-items-center">
+            <img src="https://dummyimage.com/80x80/333333/fff" alt="Customer 1">
+            <div>
+              <p>"This product exceeded my expectations! It’s stylish and functional."</p>
+              <strong>- Jane Doe</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card d-flex align-items-center">
+            <img src="https://dummyimage.com/80x80/333333/fff" alt="Customer 2">
+            <div>
+              <p>"I love how durable it is. Perfect for everyday use!"</p>
+              <strong>- John Smith</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card d-flex align-items-center">
+            <img src="https://dummyimage.com/80x80/333333/fff" alt="Customer 3">
+            <div>
+              <p>"Great customer service and fast delivery. Highly recommend!"</p>
+              <strong>- Emily Johnson</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Section -->
+  <section id="trust" class="trust-section">
+    <div class="container text-center">
+      <h2 class="mb-4">Trusted by Leading Brands</h2>
+      <p>We’re proud to partner with industry leaders who trust our products.</p>
+      <div class="d-flex justify-content-center flex-wrap">
+        <img src="https://via.placeholder.com/100" alt="Brand 1">
+        <img src="https://via.placeholder.com/100" alt="Brand 2">
+        <img src="https://via.placeholder.com/100" alt="Brand 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 ProductName. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
